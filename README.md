@@ -22,6 +22,7 @@
 ## Functional Highlights:
 **- Key Listener:**
   - The game is controlled by the KeyEvent listener, which handles tile movement based on arrow key presses.
+
 **- Dynamic Display:**
   - The puzzle updates visually with every valid move (e.g., swapping the empty space with a numbered tile).
   - The number of moves is displayed, along with congratulatory feedback upon solving the puzzle.
