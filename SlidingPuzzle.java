@@ -171,7 +171,7 @@ class SlidingPuzzle extends Frame implements ActionListener, KeyListener {
                 if(checkWinner()) {
                     l2.setText("Congrats !!! Number of attempt= " + move);
                 } else {
-                    l2.setText(msg + " " + ove);
+                    l2.setText(msg + " " + move);
                 }
             } else {
                 l2.setText("Invalid Move !!!");
