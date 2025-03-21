@@ -4,13 +4,17 @@
 **1. Grid Puzzle Layout:**
   - A 4x4 grid contains numbered buttons (1 to 15) with one empty space, resembling a classic sliding puzzle.
   - The user can move tiles around the grid to arrange them in numerical order.
+
 **2. Shuffling Logic:**
   - The tiles are shuffled randomly when the game starts using a shuffleArray() method to ensure every game has a unique start.
+
 **3. User Interaction:**
   - The game responds to arrow key inputs (UP, DOWN, LEFT, RIGHT) to slide tiles.
   - Movements depend on the position of the empty space, and invalid moves are restricted.
+
 **4. Winning Condition:**
   - The checkWinner() method verifies if the tiles are arranged sequentially from 1 to 15.
+
 **5. Visual Design:**
   - The puzzle has a bright yellow background, pink tiles, and a white empty space.
   - Labels display the game's title and the number of attempts made by the user.
